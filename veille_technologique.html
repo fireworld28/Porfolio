@@ -1,54 +1,192 @@
-<!doctype html>
-<html lang ="fr">
-<head>  
-<meta charset="utf-8">
-<link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Veille Technologique — Jean-Paul SU XU (BTS SIO SLAM)</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <header>
-        <button><a href="index.html">Profil</a></button>
-        <button><a href="formation.html">Formation</a></button>
-        <button><a href="experience.html">Expérience</a></button>
-        <button><a href="projet.html">Projet</a></button>
-        <button><a href="veille_technologique.html">Veille Technologique</a></button>
-    </header>
 
-    <main>
-        <h1 class="titre_de_la_page">Veille Technologique</h1>
-        <p> 
-            J'ai décidé de faire ma veille sur deux sujets importants pour mon futur métier de développeur : 
-            <strong>les Frameworks JavaScript</strong> .
-            Le premier est très important pour la performance et la qualité des applications que je devrai créer. 
-            Ce choix montre que j'aime le développement front-end moderne.
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="brand">
+        <span class="brand-badge">BTS SIO · SLAM</span>
+        <span>Jean-Paul SU XU</span>
+      </a>
+      <nav aria-label="Navigation principale">
+        <ul class="nav-links">
+          <li><a href="index.html">Profil</a></li>
+          <li><a href="formation.html">Formation & E5</a></li>
+          <li><a href="experience.html">Expérience</a></li>
+          <li><a href="projet.html">Projets</a></li>
+          <li><a href="veille_technologique.html" class="active">Veille Technologique</a></li>
+          <li><a href="mention%20legal.html">Mentions Légales</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- EN-TÊTE -->
+    <section class="page-hero">
+      <div class="container">
+        <span class="page-kicker">Compétence B1.6 // Organiser son développement professionnel</span>
+        <h1 class="page-title">Veille Technologique</h1>
+        <p class="page-subtitle">
+          J'ai décidé de structurer ma veille technologique autour de deux axes complémentaires essentiels pour mon futur métier de développeur d'applications (SLAM) : <strong>les Frameworks JavaScript modernes</strong> et <strong>la sécurisation de l'authentification Web & Cloud</strong>.
         </p>
-        <div class="grid_veille_technologique">
-            <div><img class="image_veille_technologique" src="image/front end.png" alt="photo de Frameworks JavaScript"></div>
-            <div>
-                <h2>Frameworks JavaScript</h2>          
-                <ul>
-                    <li>Justification : Essentiel pour suivre les architectures performantes (SSR, SSG) et l'évolution de la qualité du code.</li>
-                    <li>Applications pratiques : Analyse des gains de performance de React Server Components et l'approche "compiler" de Svelte.</li>
-                    <li>Période de veille : 2025 - actuellement</li>
-                    <li>Outils utilisés : Flux RSS via Feedly, Dispositif de notification via Google Alerts</li>
-                </ul>
-                <h3>Dernières Ressources Collectées</h3>
-                <ul>
-                    <li>
-                        <strong>Actualité :</strong> Vue 3.5 est disponible. Cette nouvelle version apporte des optimisations majeures sur le rendu des templates et le Tree-Shaking.
-                        (<a href="https://blog.vuejs.org/" target="_blank">Source : Blog officiel Vue.js</a>)
-                    </li>
-                    <li>
-                        <strong>Documentation Conceptuelle :</strong> Guide détaillé comparant les avantages en SEO et performance du Server-Side Rendering (SSR) par rapport au Client-Side Rendering (CSR).
-                        (<a href="https://dev.to/t/ssr" target="_blank">Source : Articles Dev.to sur le SSR</a>)
-                    </li>
-            </div>            
+      </div>
+    </section>
+
+    <!-- MÉTHODOLOGIE DE VEILLE -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <span class="section-index">01 // Dispositif & Méthodologie de collecte</span>
+            <h2 class="section-title">Outils de veille (Méthodes Push & Pull)</h2>
+          </div>
+          <span class="tag tag-slam">Période : 2025 – Actuellement</span>
         </div>
-    </main>
 
-    <footer>
-        <p><a href="mention legal.html">Mentions légales</a> © 2025 Jean-Paul</p>
-    </footer>
+        <div class="grid-3">
+          <div class="skill-box">
+            <h3><span>Agrégation RSS (Feedly)</span> <span class="mono">PULL</span></h3>
+            <p class="card-text" style="margin-bottom: 0;">
+              Centralisation quotidienne des flux RSS officiels des frameworks (Blog officiel Vue.js, React Blog, Svelte) et des plateformes d'ingénierie logicielle (Dev.to, MDN Web Docs).
+            </p>
+          </div>
+          <div class="skill-box">
+            <h3><span>Alertes automatisées</span> <span class="mono">PUSH</span></h3>
+            <p class="card-text" style="margin-bottom: 0;">
+              Configuration de notifications via <strong>Google Alerts</strong> sur les mots-clés ciblés : <em>"Server-Side Rendering"</em>, <em>"React Server Components"</em>, <em>"Vue 3"</em> et <em>"Authentification Web"</em>.
+            </p>
+          </div>
+          <div class="skill-box">
+            <h3><span>Sélection & Analyse SLAM</span> <span class="mono">TRI</span></h3>
+            <p class="card-text" style="margin-bottom: 0;">
+              Évaluation de chaque ressource selon son impact concret sur la performance applicative, la maintenabilité du code et la sécurité des utilisateurs finaux.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AXES DE VEILLE -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <span class="section-index">02 // Thématiques & Ressources analysées</span>
+            <h2 class="section-title">Mes deux sujets de veille technologique</h2>
+          </div>
+        </div>
+
+        <div class="grid-2">
+          <!-- SUJET 1 : FRAMEWORKS JAVASCRIPT -->
+          <article class="card">
+            <div class="card-media">
+              <img src="image/front%20end.png" alt="Illustration des Frameworks JavaScript modernes">
+            </div>
+            <div class="card-body">
+              <div class="card-meta">
+                <span class="tag tag-slam">Thématique 01 · Front-End & Architecture</span>
+                <span class="mono">2025 – Actuellement</span>
+              </div>
+              <h3 class="card-title">Les Frameworks JavaScript & le rendu hybride (SSR / SSG)</h3>
+              <p class="card-text">
+                Ce sujet est déterminant pour la performance, le référencement (SEO) et la qualité des applications Web modernes que je serai amené à concevoir en tant que développeur SLAM.
+              </p>
+              <ul class="feature-list">
+                <li><strong>Justification</strong> : Essentiel pour suivre les architectures performantes (SSR, SSG) et l'évolution de la qualité du code.</li>
+                <li><strong>Applications pratiques</strong> : Analyse des gains de performance de <em>React Server Components</em> et de l'approche « compiler » de <em>Svelte</em>.</li>
+                <li><strong>Outils utilisés</strong> : Flux RSS via Feedly, dispositif de notification via Google Alerts.</li>
+              </ul>
+
+              <h4 style="font-size: 1rem; margin: 0.75rem 0 0.65rem; border-top: 1px solid var(--border-light); padding-top: 1rem;">
+                Dernières ressources collectées :
+              </h4>
+              <ul class="feature-list">
+                <li>
+                  <strong>Actualité — Vue 3.5 est disponible :</strong> Cette version apporte des optimisations majeures sur le système de réactivité (-56 % d'utilisation mémoire), le rendu des templates et le Tree-Shaking.
+                  <br><a href="https://blog.vuejs.org/" target="_blank" rel="noopener" class="mono" style="color: var(--accent);">→ Source : Blog officiel Vue.js</a>
+                </li>
+                <li>
+                  <strong>Documentation conceptuelle — SSR vs CSR :</strong> Guide détaillé comparant les avantages en SEO et temps de chargement initial du <em>Server-Side Rendering (SSR)</em> par rapport au <em>Client-Side Rendering (CSR)</em>.
+                  <br><a href="https://dev.to/t/ssr" target="_blank" rel="noopener" class="mono" style="color: var(--accent);">→ Source : Articles Dev.to sur le SSR</a>
+                </li>
+              </ul>
+
+              <div class="tech-stack">
+                <span class="tag">JavaScript</span>
+                <span class="tag">Vue.js 3.5</span>
+                <span class="tag">React / Svelte</span>
+                <span class="tag">SSR & SSG</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- SUJET 2 : SÉCURITÉ & AUTHENTIFICATION -->
+          <article class="card">
+            <div class="card-media">
+              <img src="image/authentification.png" alt="Illustration Authentification et Sécurité Cloud">
+            </div>
+            <div class="card-body">
+              <div class="card-meta">
+                <span class="tag tag-accent">Thématique 02 · Cybersécurité Applicative</span>
+                <span class="mono">2025 – Actuellement</span>
+              </div>
+              <h3 class="card-title">Sécurisation des accès & Authentification Web moderne</h3>
+              <p class="card-text">
+                En complément de l'architecture Front-End, toute application métier SLAM doit garantir l'intégrité des sessions, la protection des mots de passe et le contrôle strict des habilitations.
+              </p>
+              <ul class="feature-list">
+                <li><strong>Justification</strong> : La compromission des identifiants reste l'une des premières causes de vulnérabilité des applications Web (Top 10 OWASP).</li>
+                <li><strong>Applications pratiques</strong> : Bonnes pratiques de hachage côté serveur (Argon2id / Bcrypt en PHP), gestion sécurisée des jetons de session, authentification multifacteur (MFA) et essor des <em>Passkeys (WebAuthn)</em>.</li>
+                <li><strong>Lien avec le référentiel SLAM</strong> : Sécurisation des données et respect des obligations du RGPD.</li>
+              </ul>
+
+              <h4 style="font-size: 1rem; margin: 0.75rem 0 0.65rem; border-top: 1px solid var(--border-light); padding-top: 1rem;">
+                Points de vigilance étudiés :
+              </h4>
+              <ul class="feature-list">
+                <li>
+                  <strong>Recommandations CNIL & ANSSI :</strong> Politiques de robustesse des mots de passe, stockage sécurisé et double facteur d'authentification.
+                  <br><a href="https://www.cnil.fr/fr/mots-de-passe-une-nouvelle-recommandation-pour-maitriser-sa-securite" target="_blank" rel="noopener" class="mono" style="color: var(--accent);">→ Source : Recommandations CNIL</a>
+                </li>
+                <li>
+                  <strong>Standard OWASP Authentication Cheat Sheet :</strong> Guide technique de référence pour protéger les formulaires de connexion contre le brute-force et le vol de session.
+                  <br><a href="https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html" target="_blank" rel="noopener" class="mono" style="color: var(--accent);">→ Source : OWASP Cheat Sheet Series</a>
+                </li>
+              </ul>
+
+              <div class="tech-stack">
+                <span class="tag">Authentification</span>
+                <span class="tag">OWASP / ANSSI</span>
+                <span class="tag">RGPD</span>
+                <span class="tag">Sécurité Back-End</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="mono">© 2025–2026 Jean-Paul SU XU — Portfolio BTS SIO Option SLAM</p>
+      </div>
+      <ul class="footer-links">
+        <li><a href="index.html">Profil</a></li>
+        <li><a href="fichier%20a%20telecharger/CV%20Jean-Paul%20SU%20XU%20(1).pdf" target="_blank">CV (PDF)</a></li>
+        <li><a href="fichier%20a%20telecharger/tableau%20de%20synthese%20des%20competence.pdf" target="_blank">Tableau de synthèse</a></li>
+        <li><a href="mention%20legal.html">Mentions légales</a></li>
+      </ul>
+    </div>
+  </footer>
+
 </body>
-
 </html>

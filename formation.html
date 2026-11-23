@@ -1,69 +1,208 @@
-<!doctype html>
-<html lang ="fr">
-<head>  
-<meta charset="utf-8">
-<link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formation & Épreuve E5 — Jean-Paul SU XU (BTS SIO SLAM)</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <header>
-        <button><a href="index.html">Profil</a></button>
-        <button><a href="formation.html">Formation</a></button>
-        <button><a href="experience.html">Expérience</a></button>
-        <button><a href="projet.html">Projet</a></button>
-        <button><a href="veille_technologique.html">Veille Technologique</a></button>
-    </header>
 
-    <main>
-        <h1 class="titre_de_la_page">Formation</h1>
-        <div class="grid_formation">
-            <div><img class="image_formation" src="image/lycee.jpg" alt="photo du lycee"></div>
-            <div>
-                <h2>Baccaulauréat Générale</h2>          
-                <ul>
-                    <li>Avec option mathématique et physique chimie</li>
-                    <li>Avec mention assez bien</li>
-                    <li>2021-2024</li>
-                </ul>
-            </div>
-            <div><img class="image_formation" src="image/campus.jpg" alt="photo du campus"></div>
-            <div>
-                <h2>BTS SIO</h2>          
-                <ul>
-                    <li>1er année de BTS SIO</li>
-                    <li>2025-actuellement</li>
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="brand">
+        <span class="brand-badge">BTS SIO · SLAM</span>
+        <span>Jean-Paul SU XU</span>
+      </a>
+      <nav aria-label="Navigation principale">
+        <ul class="nav-links">
+          <li><a href="index.html">Profil</a></li>
+          <li><a href="formation.html" class="active">Formation & E5</a></li>
+          <li><a href="experience.html">Expérience</a></li>
+          <li><a href="projet.html">Projets</a></li>
+          <li><a href="veille_technologique.html">Veille Technologique</a></li>
+          <li><a href="mention%20legal.html">Mentions Légales</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-                </ul>
-            </div>
+  <main>
+    <!-- EN-TÊTE DE PAGE -->
+    <section class="page-hero">
+      <div class="container">
+        <span class="page-kicker">Parcours Académique & Référentiel BTS SIO</span>
+        <h1 class="page-title">Formation & Parcours de Professionnalisation</h1>
+        <p class="page-subtitle">
+          De l'obtention de mon Baccalauréat Général scientifique à ma spécialisation actuelle en développement d'applications métiers au sein du BTS SIO option SLAM.
+        </p>
+      </div>
+    </section>
+
+    <!-- ÉTABLISSEMENTS & DIPLÔMES -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <span class="section-index">01 // Cursus Scolaire & Supérieur</span>
+            <h2 class="section-title">Diplômes & Établissements</h2>
+          </div>
         </div>
-        <section class="epreuve_e5_section">
-            <h2>Épreuve E5 : Parcours de Professionnalisation</h2>
-            <p>
-                L'épreuve orale E5 du BTS SIO évalue l'acquisition des compétences professionnelles durant mon parcours de formation. Mes recherches sur cette épreuve et le tableau de synthèse des compétences sont listés ci-dessous pour préparer l'examen final.
+
+        <div class="grid-2">
+          <!-- BTS SIO -->
+          <article class="card">
+            <div class="card-media">
+              <img src="image/campus.jpg" alt="Campus Charles de Foucauld - BTS SIO">
+            </div>
+            <div class="card-body">
+              <div class="card-meta">
+                <span class="tag tag-slam">2025 – Actuellement</span>
+                <span class="mono">1<sup>re</sup> année de BTS SIO</span>
+              </div>
+              <h3 class="card-title">BTS SIO — Option SLAM</h3>
+              <p class="card-text">
+                <strong>Campus Charles de Foucauld</strong> — Préparation du Brevet de Technicien Supérieur Services Informatiques aux Organisations, spécialité <em>Solutions Logicielles et Applications Métiers (SLAM)</em>.
+              </p>
+              <ul class="feature-list">
+                <li>Conception, développement et maintenance d'applications Web et logicielles (HTML, CSS, PHP, JavaScript, Python).</li>
+                <li>Modélisation et administration de bases de données relationnelles (MySQL / SQL).</li>
+                <li>Gestion du patrimoine informatique, cybersécurité applicative et conformité RGPD.</li>
+                <li>Travail en mode projet, documentation technique et veille technologique.</li>
+              </ul>
+              <div class="tech-stack">
+                <span class="tag">Option SLAM</span>
+                <span class="tag">Développement Applicatif</span>
+                <span class="tag">Base de données</span>
+                <span class="tag">Cybersécurité</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- BAC GÉNÉRAL -->
+          <article class="card">
+            <div class="card-media">
+              <img src="image/lycee.jpg" alt="Lycée Charles de Foucauld">
+            </div>
+            <div class="card-body">
+              <div class="card-meta">
+                <span class="tag tag-accent">2021 – 2024</span>
+                <span class="mono">Mention Assez Bien</span>
+              </div>
+              <h3 class="card-title">Baccalauréat Général Scientifique</h3>
+              <p class="card-text">
+                <strong>Lycée Charles de Foucauld</strong> — Obtention du Baccalauréat Général avec un profil orienté sciences exactes et raisonnement logique.
+              </p>
+              <ul class="feature-list">
+                <li><strong>Spécialités suivies</strong> : Mathématiques et Physique-Chimie.</li>
+                <li><strong>Distinction</strong> : Obtenu avec la <strong>Mention Assez Bien</strong>.</li>
+                <li>Acquisition d'une méthodologie rigoureuse d'analyse, de résolution de problèmes et de logique algorithmique.</li>
+              </ul>
+              <div class="tech-stack">
+                <span class="tag">Mathématiques</span>
+                <span class="tag">Physique-Chimie</span>
+                <span class="tag">Mention Assez Bien</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ÉPREUVE E5 / E4 : PARCOURS DE PROFESSIONNALISATION -->
+    <section class="section" id="epreuve-e5">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <span class="section-index">02 // Préparation à l'Examen Final</span>
+            <h2 class="section-title">Épreuve E5 & Parcours de Professionnalisation</h2>
+          </div>
+          <a href="fichier%20a%20telecharger/tableau%20de%20synthese%20des%20competence.pdf" class="btn btn-primary" target="_blank" download>
+            Télécharger le Tableau de Synthèse (PDF) ↗
+          </a>
+        </div>
+
+        <p class="page-subtitle" style="margin-bottom: 2rem;">
+          L'épreuve orale du BTS SIO évalue l'acquisition des compétences professionnelles durant mon parcours de formation. Mes recherches sur cette épreuve et le tableau de synthèse des compétences sont détaillés ci-dessous pour préparer l'examen final.
+        </p>
+
+        <h3 style="font-size: 1.25rem; margin-bottom: 1rem;">Synthèse des 10 compétences évaluées</h3>
+        <div class="competence-grid">
+          <div class="competence-item">
+            <span class="competence-num">01</span>
+            <span>Analyser le besoin du client et reformuler les objectifs du projet.</span>
+          </div>
+          <div class="competence-item">
+            <span class="competence-num">02</span>
+            <span>Identifier les contraintes techniques, budgétaires et de sécurité.</span>
+          </div>
+          <div class="competence-item">
+            <span class="competence-num">03</span>
+            <span>Proposer une solution adaptée (logicielle, matérielle ou mixte).</span>
+          </div>
+          <div class="competence-item">
+            <span class="competence-num">04</span>
+            <span>Réaliser un cahier des charges fonctionnel et technique.</span>
+          </div>
+          <div class="competence-item">
+            <span class="competence-num">05</span>
+            <span>Planifier les étapes d'un projet informatique (méthode agile, Gantt, Trello…).</span>
+          </div>
+          <div class="competence-item">
+            <span class="competence-num">06</span>
+            <span>Rédiger une documentation technique claire et structurée.</span>
+          </div>
+          <div class="competence-item">
+            <span class="competence-num">07</span>
+            <span>Collaborer efficacement dans un travail d'équipe (communication, outils collaboratifs).</span>
+          </div>
+          <div class="competence-item">
+            <span class="competence-num">08</span>
+            <span>Effectuer une veille technologique (nouvelles tendances, outils, langages).</span>
+          </div>
+          <div class="competence-item">
+            <span class="competence-num">09</span>
+            <span>Appliquer des bonnes pratiques de cybersécurité et de conformité RGPD.</span>
+          </div>
+          <div class="competence-item">
+            <span class="competence-num">10</span>
+            <span>Présenter et argumenter ses choix techniques à l'oral devant un jury.</span>
+          </div>
+        </div>
+
+        <!-- APERÇU DU TABLEAU DE SYNTHÈSE -->
+        <div class="synthesis-banner" style="margin-top: 3rem;">
+          <div>
+            <span class="section-index">Document Officiel</span>
+            <h3 class="card-title" style="font-size: 1.6rem;">Tableau de Synthèse des Compétences</h3>
+            <p class="card-text">
+              Cliquez sur le bouton ci-dessous ou directement sur l'aperçu du tableau pour consulter et télécharger la grille officielle au format PDF.
             </p>
-            <h3>Synthèse des Compétences Évaluées</h3>
-            <ul>
-                <li>Analyser le besoin du client et reformuler les objectifs du projet.</li>
-                <li>Identifier les contraintes techniques, budgétaires et de sécurité.</li>
-                <li>Proposer une solution adaptée (logicielle, matérielle ou mixte).</li>
-                <li>Réaliser un cahier des charges fonctionnel et technique.</li>
-                <li>Planifier les étapes d’un projet informatique (méthode agile, Gantt, Trello…).</li>
-                <li>Rédiger une documentation technique claire et structurée.</li>
-                <li>Collaborer efficacement dans un travail d’équipe (communication, outils collaboratifs).</li>
-                <li>Effectuer une veille technologique (nouvelles tendances, outils, langages).</li>
-                <li>Appliquer des bonnes pratiques de cybersécurité et de RGPD.</li>
-                <li>Présenter et argumenter ses choix techniques à l’oral devant un jury.</li>
-            </ul>
-            <h3>Tableau de Synthèse des Compétences</h3>
-            <a href="fichier a telecharger/tableau de synthese des competence.pdf" download>
-                <img src="image/tableau de synthese des competences.png" alt="tableau de synthèse des compétences">
+            <a href="fichier%20a%20telecharger/tableau%20de%20synthese%20des%20competence.pdf" class="btn btn-primary" download>
+              Télécharger le PDF officiel ↗
             </a>
-        </section>
-    </main>
+          </div>
+          <a href="fichier%20a%20telecharger/tableau%20de%20synthese%20des%20competence.pdf" download class="synthesis-preview" title="Télécharger le tableau de synthèse des compétences">
+            <img src="image/tableau%20de%20synthese%20des%20competences.png" alt="Tableau de synthèse des compétences BTS SIO">
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
 
-    <footer>
-        <p><a href="mention legal.html">Mentions légales</a> © 2025 Jean-Paul</p>
-    </footer>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="mono">© 2025–2026 Jean-Paul SU XU — Portfolio BTS SIO Option SLAM</p>
+      </div>
+      <ul class="footer-links">
+        <li><a href="index.html">Profil</a></li>
+        <li><a href="fichier%20a%20telecharger/CV%20Jean-Paul%20SU%20XU%20(1).pdf" target="_blank">CV (PDF)</a></li>
+        <li><a href="fichier%20a%20telecharger/tableau%20de%20synthese%20des%20competence.pdf" target="_blank">Tableau de synthèse</a></li>
+        <li><a href="mention%20legal.html">Mentions légales</a></li>
+      </ul>
+    </div>
+  </footer>
+
 </body>
-
 </html>

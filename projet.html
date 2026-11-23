@@ -1,59 +1,167 @@
-<!doctype html>
-<html lang ="fr">
-<head>  
-<meta charset="utf-8">
-<link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projets & Réalisations — Jean-Paul SU XU (BTS SIO SLAM)</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <header>
-        <button><a href="index.html">Profil</a></button>
-        <button><a href="formation.html">Formation</a></button>
-        <button><a href="experience.html">Expérience</a></button>
-        <button><a href="projet.html">Projet</a></button>
-        <button><a href="veille_technologique.html">Veille Technologique</a></button>
-    </header>
 
-    <main>
-        <h1 class="titre_de_la_page">Projet</h1>
-        <p>Voici mes projets informatiques : </p>
-        <div class="grid_projet" >
-            <div><img class="image_projet" src="image/e-portfolio.jpg" alt="photo du porfolio"></div>
-            <div>
-                <h2>Porfolio</h2>          
-                <ul>
-                    <li>Création d'un EPorfolio</li>
-                    <li>Présentation du mon parcours professionnel et educationnel</li>
-                    <li>12/11/2025-actuellement</li>
-                </ul>
-            </div>
-        </div>
-        <p>Voici mon premier projet et mon dernier projet personnel sur le rendu 3D :</p>
-        <div class="grid_projet">
-            <div><img class="image_projet" src="image/premier projet.png" alt="photo du premier projet"></div>
-            <div>
-                <h2>Premier Projet - Rendu 3D</h2>          
-                <ul>
-                    <li>Création d'un modèle 3D simple</li>
-                    <li>Acquisition des bases </li>
-                    <li>06/2025-actuellement</li>
-                </ul>
-            </div>
-            <div><img class="image_projet" src="image/dernier projet.png" alt="photo du premier projet"></div>
-            <div>
-                <h2>Dernier Projet - Rendu 3D</h2>          
-                <ul>
-                    <li>Création d'un modèle 3D plus complexe</li>
-                    <li>Entrainnement sur les bases</li>
-                    <li>08/2025-actuellement</li>
-                </ul>
-            </div>
-        </div>
-    </main>
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="brand">
+        <span class="brand-badge">BTS SIO · SLAM</span>
+        <span>Jean-Paul SU XU</span>
+      </a>
+      <nav aria-label="Navigation principale">
+        <ul class="nav-links">
+          <li><a href="index.html">Profil</a></li>
+          <li><a href="formation.html">Formation & E5</a></li>
+          <li><a href="experience.html">Expérience</a></li>
+          <li><a href="projet.html" class="active">Projets</a></li>
+          <li><a href="veille_technologique.html">Veille Technologique</a></li>
+          <li><a href="mention%20legal.html">Mentions Légales</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <footer>
-        <p><a href="mention legal.html">Mentions légales</a> © 2025 Jean-Paul</p>
-    </footer>
+  <main>
+    <!-- EN-TÊTE -->
+    <section class="page-hero">
+      <div class="container">
+        <span class="page-kicker">Réalisations Académiques & Personnelles</span>
+        <h1 class="page-title">Projets Informatiques & Modélisation 3D</h1>
+        <p class="page-subtitle">
+          Présentation de mes réalisations en développement Web dans le cadre du BTS SIO SLAM ainsi que de ma progression technique en modélisation et rendu 3D sous Blender.
+        </p>
+      </div>
+    </section>
+
+    <!-- PROJET INFORMATIQUE BTS SIO -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <span class="section-index">01 // Développement Web & Identité Numérique</span>
+            <h2 class="section-title">Projet Informatique — Création du E-Portfolio</h2>
+          </div>
+          <span class="tag tag-slam">12/11/2025 – Actuellement</span>
+        </div>
+
+        <div class="synthesis-banner">
+          <div>
+            <div class="card-meta" style="margin-bottom: 1rem;">
+              <span class="tag tag-slam">Compétence B1.6 : Organiser son développement professionnel</span>
+              <span class="mono">HTML5 · CSS3 · GitHub</span>
+            </div>
+            <h3 class="card-title" style="font-size: 1.55rem;">Conception et déploiement de mon E-Portfolio BTS SIO SLAM</h3>
+            <p class="card-text">
+              Développement intégral d'un site Web statique multi-pages destiné à présenter mon parcours académique, mes compétences techniques, mes projets, ma veille technologique ainsi que mes pièces officielles pour les épreuves du BTS SIO.
+            </p>
+            <ul class="feature-list">
+              <li><strong>Architecture multi-pages sémantique</strong> : Structuration claire en 6 pages HTML5 interconnectées (Profil, Formation & E5, Expérience, Projets, Veille technologique, Mentions légales).</li>
+              <li><strong>Feuille de style centralisée</strong> : Conception d'un système de design éditorial en CSS3 (variables CSS, CSS Grid, Flexbox, responsive mobile/bureau).</li>
+              <li><strong>Gestion de versions & Hébergement</strong> : Publication du code source et suivi des mises à jour sur un dépôt GitHub.</li>
+            </ul>
+            <div class="tech-stack">
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3 Grid & Flexbox</span>
+              <span class="tag">Responsive Design</span>
+              <span class="tag">Git / GitHub</span>
+            </div>
+          </div>
+
+          <div class="synthesis-preview">
+            <img src="image/e-portfolio.jpg" alt="Illustration du projet E-Portfolio">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJETS PERSONNELS : MODÉLISATION & RENDU 3D -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <span class="section-index">02 // Projets Personnels · Conception & Rendu 3D (Blender)</span>
+            <h2 class="section-title">Progression en Modélisation 3D : du premier au dernier projet</h2>
+          </div>
+        </div>
+
+        <div class="grid-2">
+          <!-- PREMIER PROJET 3D -->
+          <article class="card">
+            <div class="card-media">
+              <img src="image/premier%20projet.png" alt="Premier projet de rendu 3D sous Blender - Modèle mécanique">
+            </div>
+            <div class="card-body">
+              <div class="card-meta">
+                <span class="tag">Juin 2025 – Actuellement</span>
+                <span class="mono">Étape 01 · Acquisition des bases</span>
+              </div>
+              <h3 class="card-title">Premier Projet — Modélisation 3D Géométrique</h3>
+              <p class="card-text">
+                Première réalisation personnelle sous <strong>Blender</strong> visant à acquérir les fondamentaux de la modélisation polygonale et de la géométrie dans l'espace 3D.
+              </p>
+              <ul class="feature-list">
+                <li>Création d'un modèle 3D mécanique structuré (foreuse / cône hélicoïdal).</li>
+                <li>Apprentissage de la manipulation des sommets, arêtes et faces (extrusion, biseautage, opérations booléennes).</li>
+                <li>Maîtrise du lissage des normales (Auto Smooth) et des proportions géométriques.</li>
+              </ul>
+              <div class="tech-stack">
+                <span class="tag">Blender 3D</span>
+                <span class="tag">Modélisation Hard-Surface</span>
+                <span class="tag">Maillage 3D</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- DERNIER PROJET 3D -->
+          <article class="card">
+            <div class="card-media">
+              <img src="image/dernier%20projet.png" alt="Dernier projet de rendu 3D sous Blender - Scène photoréaliste">
+            </div>
+            <div class="card-body">
+              <div class="card-meta">
+                <span class="tag tag-accent">Août 2025 – Actuellement</span>
+                <span class="mono">Étape 02 · Scène complexe & Rendu</span>
+              </div>
+              <h3 class="card-title">Dernier Projet — Scène Complexe & Rendu Photoréaliste</h3>
+              <p class="card-text">
+                Projet d'approfondissement illustrant ma progression rapide sur <strong>Blender</strong> avec une scène complète combinant modélisation organique, matériaux avancés et éclairage réaliste.
+              </p>
+              <ul class="feature-list">
+                <li>Création d'un modèle 3D complexe avec sculpture du glaçage et distribution procédurale des pépites (Geometry Nodes / Particules).</li>
+                <li>Configuration des shaders PBR (Subsurface Scattering, reflets spéculaires, texture marbre et céramique).</li>
+                <li>Paramétrage de la caméra, de la profondeur de champ et du moteur de rendu <strong>Cycles</strong>.</li>
+              </ul>
+              <div class="tech-stack">
+                <span class="tag">Blender Cycles</span>
+                <span class="tag">Geometry Nodes</span>
+                <span class="tag">Shaders PBR & Lighting</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="mono">© 2025–2026 Jean-Paul SU XU — Portfolio BTS SIO Option SLAM</p>
+      </div>
+      <ul class="footer-links">
+        <li><a href="index.html">Profil</a></li>
+        <li><a href="fichier%20a%20telecharger/CV%20Jean-Paul%20SU%20XU%20(1).pdf" target="_blank">CV (PDF)</a></li>
+        <li><a href="fichier%20a%20telecharger/tableau%20de%20synthese%20des%20competence.pdf" target="_blank">Tableau de synthèse</a></li>
+        <li><a href="mention%20legal.html">Mentions légales</a></li>
+      </ul>
+    </div>
+  </footer>
+
 </body>
-
 </html>

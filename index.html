@@ -1,36 +1,246 @@
-<!doctype html>
-<html lang ="fr">
-<head>  
-<meta charset="utf-8">
-<link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jean-Paul SU XU — Portfolio BTS SIO Option SLAM</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <header>
-        <button><a href="index.html">Profil</a></button>
-        <button><a href="formation.html">Formation</a></button>
-        <button><a href="experience.html">Expérience</a></button>
-        <button><a href="projet.html">Projet</a></button>
-        <button><a href="veille_technologique.html">Veille Technologique</a></button>
-    </header>
 
-    <main>
-        <h1 class="titre_de_la_page">Profil</h1>
-        <div class="flex_profil">
-            <img class="image_profil" src="image/jean-paul.png" alt="photo de jean-paul" >
-            <div class="titre_avec_paragraphe">
-                <h2>À Propos de Moi</h2>
-                <p>
-                   Je m'appelle Jean-Paul, étudiant en premier année de BTS SIO. <br><a href"fichier a telecharger/CV Jean-Paul SU XU (1).pdf">lien pour le cv</a>
-                </p>
+  <!-- NAVIGATION -->
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="brand">
+        <span class="brand-badge">BTS SIO · SLAM</span>
+        <span>Jean-Paul SU XU</span>
+      </a>
+      <nav aria-label="Navigation principale">
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Profil</a></li>
+          <li><a href="formation.html">Formation & E5</a></li>
+          <li><a href="experience.html">Expérience</a></li>
+          <li><a href="projet.html">Projets</a></li>
+          <li><a href="veille_technologique.html">Veille Technologique</a></li>
+          <li><a href="mention%20legal.html">Mentions Légales</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="status-pill">
+            <span class="status-dot"></span>
+            <span>Étudiant en 1<sup>re</sup> année de BTS SIO SLAM — En recherche de stage informatique</span>
+          </div>
+          <h1>
+            Jean-Paul SU XU, futur développeur <span class="serif-italic">d'applications métiers</span> & solutions logicielles.
+          </h1>
+          <p class="hero-lead">
+            Passionné par le développement informatique et doté d'un esprit rationnel forgé par un parcours scientifique (Mathématiques & Physique-Chimie), je prépare actuellement mon <strong>BTS Services Informatiques aux Organisations — Option SLAM</strong> au <strong>Campus Charles de Foucauld</strong>.
+          </p>
+          <div class="hero-actions">
+            <a href="fichier%20a%20telecharger/CV%20Jean-Paul%20SU%20XU%20(1).pdf" class="btn btn-primary" target="_blank" download>
+              Télécharger mon CV (PDF) ↗
+            </a>
+            <a href="fichier%20a%20telecharger/tableau%20de%20synthese%20des%20competence.pdf" class="btn btn-outline" target="_blank">
+              Tableau de synthèse E4/E5 (PDF)
+            </a>
+            <a href="projet.html" class="btn btn-outline">
+              Découvrir mes réalisations →
+            </a>
+          </div>
+
+          <div class="hero-quick-info">
+            <div>
+              <span class="quick-stat-label">Établissement</span>
+              <span class="quick-stat-value">Campus Charles de Foucauld</span>
             </div>
+            <div>
+              <span class="quick-stat-label">Spécialité</span>
+              <span class="quick-stat-value">Option SLAM (Développement)</span>
+            </div>
+            <div>
+              <span class="quick-stat-label">Localisation</span>
+              <span class="quick-stat-value">Villemomble (93) / Île-de-France</span>
+            </div>
+          </div>
         </div>
-    </main>
 
-    <footer>
-        <p><a href="mention legal.html">Mentions légales</a> © 2025 Jean-Paul</p>
-    </footer>
+        <div class="hero-portrait-card">
+          <img src="image/jean-paul.png" alt="Portrait de Jean-Paul SU XU">
+          <div class="portrait-caption">
+            <span>JEAN-PAUL SU XU</span>
+            <span>PROMOTION 2025–2027</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MATRICE DE COMPÉTENCES ISSUES DU CV -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <span class="section-index">01 // Socle Technique & Compétences</span>
+            <h2 class="section-title">Stack technique & Outils maîtrisés</h2>
+          </div>
+          <a href="fichier%20a%20telecharger/CV%20Jean-Paul%20SU%20XU%20(1).pdf" class="btn btn-outline" target="_blank">Consulter le CV complet →</a>
+        </div>
+
+        <div class="skills-matrix">
+          <div class="skill-box">
+            <h3><span>Développement Web</span> <span class="mono">01</span></h3>
+            <ul class="feature-list">
+              <li><strong>HTML5 / CSS3</strong> : Structuration sémantique, Flexbox, CSS Grid, Responsive Design</li>
+              <li><strong>JavaScript</strong> : Dynamisation Front-End et veille sur les frameworks (Vue.js, React, Svelte)</li>
+              <li><strong>PHP</strong> : Logique côté serveur et pages dynamiques</li>
+            </ul>
+          </div>
+
+          <div class="skill-box">
+            <h3><span>Programmation & Données</span> <span class="mono">02</span></h3>
+            <ul class="feature-list">
+              <li><strong>Python</strong> : Algorithmique, scripts et logique applicative</li>
+              <li><strong>MySQL / SQL</strong> : Modélisation relationnelle, requêtes et persistance des données</li>
+              <li><strong>Git & GitHub</strong> : Gestion de versions et déploiement Web</li>
+            </ul>
+          </div>
+
+          <div class="skill-box">
+            <h3><span>Création 3D & Graphisme</span> <span class="mono">03</span></h3>
+            <ul class="feature-list">
+              <li><strong>Blender 3D</strong> : Modélisation polygonale, matériaux PBR, éclairage Cycles</li>
+              <li><strong>Adobe Photoshop</strong> : Retouche d'images et préparation d'assets visuels</li>
+              <li><strong>Microsoft Office</strong> : Rédaction technique et bureautique</li>
+            </ul>
+          </div>
+
+          <div class="skill-box">
+            <h3><span>Langues & Contact</span> <span class="mono">04</span></h3>
+            <ul class="feature-list">
+              <li><strong>Langues parlées</strong> : Français, Anglais, Chinois</li>
+              <li><strong>Email</strong> : jeanpaulsuxu@gmail.com</li>
+              <li><strong>Téléphone</strong> : 07 67 27 82 61</li>
+              <li><strong>Mobilité</strong> : Villemomble (93250) & Grand Paris</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- APERÇU DU PARCOURS ET DES RÉALISATIONS -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <span class="section-index">02 // Vue d'ensemble du Portfolio</span>
+            <h2 class="section-title">Parcours, Projets & Veille Technologique</h2>
+          </div>
+        </div>
+
+        <div class="grid-3">
+          <article class="card">
+            <div class="card-media">
+              <img src="image/campus.jpg" alt="Campus Charles de Foucauld">
+            </div>
+            <div class="card-body">
+              <div class="card-meta">
+                <span class="tag tag-slam">Formation & Épreuve E5</span>
+                <span class="mono">2021 – Aujourd'hui</span>
+              </div>
+              <h3 class="card-title">Cursus BTS SIO SLAM & Lycée Charles de Foucauld</h3>
+              <p class="card-text">
+                Après un Baccalauréat Général (spécialités Mathématiques et Physique-Chimie, mention Assez Bien), j'ai intégré le BTS SIO option SLAM pour me spécialiser en génie logiciel.
+              </p>
+              <a href="formation.html" class="btn btn-outline">Voir ma formation & l'épreuve E5 →</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-media">
+              <img src="image/dernier%20projet.png" alt="Projet de modélisation et rendu 3D">
+            </div>
+            <div class="card-body">
+              <div class="card-meta">
+                <span class="tag tag-accent">Réalisations</span>
+                <span class="mono">Web & 3D</span>
+              </div>
+              <h3 class="card-title">Projets Informatiques & Modélisation 3D</h3>
+              <p class="card-text">
+                Développement de ce E-Portfolio structuré pour le BTS SIO et réalisation de projets personnels de modélisation et rendu 3D sous Blender.
+              </p>
+              <a href="projet.html" class="btn btn-outline">Voir mes projets →</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-media">
+              <img src="image/front%20end.png" alt="Veille technologique Frameworks JavaScript">
+            </div>
+            <div class="card-body">
+              <div class="card-meta">
+                <span class="tag tag-slam">Veille Technologique</span>
+                <span class="mono">SLAM</span>
+              </div>
+              <h3 class="card-title">Frameworks JavaScript & Authentification Cloud</h3>
+              <p class="card-text">
+                Suivi actif des architectures Front-End modernes (SSR, SSG, Vue 3.5, React, Svelte) et des standards de sécurité d'authentification via Feedly et Google Alerts.
+              </p>
+              <a href="veille_technologique.html" class="btn btn-outline">Lire ma veille technologique →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACCÈS DIRECT TABLEAU DE SYNTHÈSE -->
+    <section class="section">
+      <div class="container">
+        <div class="synthesis-banner">
+          <div>
+            <span class="section-index">03 // Document Officiel Examen BTS SIO</span>
+            <h2 class="section-title" style="margin-bottom: 1rem;">
+              Tableau de Synthèse des Réalisations Professionnelles
+            </h2>
+            <p class="card-text">
+              Ce tableau officiel récapitule l'ensemble des compétences mises en œuvre au cours de ma formation en BTS SIO (Gérer le patrimoine informatique, Répondre aux incidents, Développer la présence en ligne, Travailler en mode projet, Mettre à disposition un service informatique et Organiser son développement professionnel).
+            </p>
+            <div class="hero-actions" style="margin-bottom: 0;">
+              <a href="fichier%20a%20telecharger/tableau%20de%20synthese%20des%20competence.pdf" class="btn btn-primary" target="_blank" download>
+                Télécharger le Tableau de Synthèse (PDF) ↗
+              </a>
+              <a href="formation.html#epreuve-e5" class="btn btn-outline">
+                Détails des compétences évaluées →
+              </a>
+            </div>
+          </div>
+          <div class="synthesis-preview">
+            <img src="image/tableau%20de%20synthese%20des%20competences.png" alt="Aperçu du tableau de synthèse des compétences BTS SIO">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="mono">© 2025–2026 Jean-Paul SU XU — Portfolio BTS SIO Option SLAM</p>
+      </div>
+      <ul class="footer-links">
+        <li><a href="fichier%20a%20telecharger/CV%20Jean-Paul%20SU%20XU%20(1).pdf" target="_blank">CV (PDF)</a></li>
+        <li><a href="fichier%20a%20telecharger/tableau%20de%20synthese%20des%20competence.pdf" target="_blank">Tableau de synthèse (PDF)</a></li>
+        <li><a href="mailto:jeanpaulsuxu@gmail.com">jeanpaulsuxu@gmail.com</a></li>
+        <li><a href="mention%20legal.html">Mentions légales</a></li>
+      </ul>
+    </div>
+  </footer>
+
 </body>
-
-
 </html>
