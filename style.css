@@ -654,3 +654,112 @@ h1, h2, h3, h4 {
     grid-template-columns: 1fr;
   }
 }
+
+/* --- AJOUTS : stage Digital NEXT, veille cybersécurité, projets --- */
+.logo-preview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+  padding: 2.5rem 1.5rem;
+  border: 1.5px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+}
+
+.logo-preview img {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  display: block;
+}
+
+.motif-box {
+  border-left: 4px solid var(--accent);
+  background-color: var(--accent-soft);
+  padding: 1.1rem 1.3rem;
+  border-radius: var(--radius-sm);
+  margin: 1.25rem 0;
+}
+
+.motif-box strong.motif-label {
+  display: block;
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 0.4rem;
+}
+
+.motif-box p {
+  margin: 0;
+  color: var(--text-main);
+  line-height: 1.6;
+}
+
+.feed-panel {
+  background-color: var(--bg-surface);
+  border: 1.5px solid var(--border-strong);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-hard);
+  padding: 1.75rem;
+}
+
+.feed-panel h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.4rem;
+}
+
+.feed-status {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-bottom: 0.75rem;
+  display: block;
+}
+
+.feed-list {
+  list-style: none;
+  margin: 0 0 1.25rem;
+  padding: 0;
+}
+
+.feed-item {
+  padding: 0.8rem 0;
+  border-top: 1px solid var(--border-light);
+}
+
+.feed-item a {
+  font-weight: 600;
+  color: var(--text-main);
+  text-decoration: none;
+  line-height: 1.4;
+}
+
+.feed-item a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+.feed-meta {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-top: 0.2rem;
+}
+
+.feed-flag {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.1rem 0.45rem;
+  margin-left: 0.4rem;
+  border-radius: 3px;
+  background-color: var(--slam-green-bg);
+  color: var(--slam-green);
+  vertical-align: middle;
+}
+
+.archive-divider {
+  border: none;
+  border-top: 2px dashed var(--border-light);
+  margin: 0;
+}
